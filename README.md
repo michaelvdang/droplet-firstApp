@@ -7,3 +7,10 @@ Type:
 Install Docker:
   - curl -fsSL https://get.docker.com -o get-docker.sh
   - sudo sh get-docker.sh
+
+Clone the repo:
+  - git clone https://github.com/michaelvdang/droplet-firstApp.git
+  - cd 
+  - docker compose up -d
+
+Access the app at the server's public IP address on port 8000
