@@ -4,3 +4,6 @@ Locate the ssh private key that is paired with the one on the server
 Type:
   - ssh -i <private key file> root@<IP address>
 
+Install Docker:
+  - curl -fsSL https://get.docker.com -o get-docker.sh
+  - sudo sh get-docker.sh
